@@ -1,0 +1,18 @@
+{
+  "name": "video-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd client && yarn start\" \"cd server && yarn start\""
+  },
+  "dependencies": {
+    "@babel/helper-builder-react-jsx": "^7.14.5",
+    "browserslist": "^4.16.6",
+    "caniuse-lite": "^1.0.30001248",
+    "concurrently": "^4.1.0",
+    "immutability-helper": "^3.0.1",
+    "react-hotkeys": "^2.0.0",
+    "semantic-ui-react": "^0.87.3",
+    "video.js": "^7.6.0"
+  }
+}
